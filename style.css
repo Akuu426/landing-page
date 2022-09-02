@@ -1,0 +1,139 @@
+/** {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }*/
+
+  .navbar {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    padding-left: 70px;
+    padding-right: 60px;
+    flex-wrap: wrap;
+  }
+
+  .container {
+    display: flex;
+    justify-items: space-around;
+    align-items: center;
+    /*margin-bottom: 20px;*/
+    padding: 10px;
+  }
+
+  .navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 200px;
+    gap: 25px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .hero-text {
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+  }
+
+  h1 {
+    font-size: xx-large;
+    margin-bottom: 8px;
+    max-width: 200px;
+  }
+
+  .hero-text p {
+    margin-top: 0;
+  }
+  
+  img {
+    max-width: 300px;
+  }
+
+  .second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*flex-wrap: wrap;*/
+  }
+
+  .card {
+    display: flex;
+    max-width: 200px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .box {
+    border: 3px solid #037bfc;
+    border-radius: 20px;
+    width: 160px;
+    height: 160px;
+  }
+
+  .third-section {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    padding: 50px 100px;
+  }
+
+  .third-section,
+  .card2 {
+    display: flex;
+    background-color: #e5e7eb;
+    color: 36px light italic black;
+    font-weight: lighter;
+    flex-direction: column;
+  }
+
+  .quote {
+    align-self: flex-end;
+  }
+
+  .fourth-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+ 
+  .container3 {
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    border-radius: 10px;
+    padding-right: 20px;
+  }
+
+  .container3 .calltoaction {
+    /*font-weight: 50px;*/
+    font-size: smaller;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  button {
+    background-color: #3882f6;
+    border: 2px solid #fff;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 30px;
+    color: #fff;
+    margin-top: 20px;
+  }
